@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About Me | TRACK COVID19
+{% endblock title%}
+{% block content %}
+<div class="container">
+    <h1 class="mt-5">About Me</h1>
+    <div class="card mb-3 mt-5">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="{{url_for('static', filename='mayank.jpg')}}" class="bd-placeholder-img" width="350px"
+                     height="100%" alt="Mayank">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body"></div>
+                    <blockquote class="blockquote text-right card-text mr-3">
+                        <h5 class="card-title display-4">Mayank Vachhani</h5>
+                        <p class="mb-0">I am student of Ganpat University who has been striving to learn
+                        and work on several Machine Learning Projects. I have been doing several
+                        projects and researches in the Algorithms and Machine Learning.</p><br/>
+                        <footer class="blockquote-footer card-text"><cite title="Source Title"><a href="#">Mayank Vachhani</a>
+                        </cite><br/> Student </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    {% endblock %}
