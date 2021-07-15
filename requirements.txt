@@ -11,3 +11,4 @@ scipy==1.6.2
 plotly==5.1.0
 pandas==1.2.4
 calmap==0.0.9
+gunicorn==19.9.0
