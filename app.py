@@ -13,7 +13,7 @@ country_wise_latest = 'covidtrack/assets/country_wise_latest.csv'
 covid_19_clean_complete = 'covidtrack/assets/covid_19_clean_complete.csv'
 day_wise = 'covidtrack/assets/day_wise.csv'
 full_grouped = 'covidtrack/assets/full_grouped.csv'
-usa_county_wise = 'covidtrack/assets/usa_county_wise.csv'
+#usa_county_wise = 'covidtrack/assets/usa_county_wise.csv'
 worldometer_data = 'covidtrack/assets/worldometer_data.csv'
 
 
